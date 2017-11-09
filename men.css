@@ -1,0 +1,704 @@
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+header {
+    width: 100%;
+    background-color: #333333;
+}
+
+
+/********/
+
+.landing-page {
+    width: 90%;
+    margin: 10px auto;
+    margin-top: 20px;
+    background-position: center;
+    border: 2px solid black;
+}
+
+.currency {
+    display: inline-block;
+    float: left;
+    width: 45%;
+    background-color: #333333;
+    /*    border: 2px solid red;*/
+}
+
+.currency p a {
+    margin-left: 70%;
+    color: #858585;
+    text-decoration: none;
+    /*    border: 2px solid green;*/
+}
+
+.register {
+    display: inline-block;
+    width: 15%;
+    background-color: #333333;
+    /*    border: 2px solid white;*/
+    margin-left: 8%;
+}
+
+.register p {
+    display: inline-block;
+    margin-left: 20%;
+    color: #858585;
+    text-decoration: none;
+}
+
+.register a {
+    text-decoration: none;
+    color: #858585;
+}
+
+.shopping p a {
+    width: 20%;
+    color: #858585;
+    text-decoration: none;
+    background-color: #00c8c8;
+    color: white;
+}
+
+.shopping .fa {
+    margin-right: 20px;
+    background-color: #00c8c8;
+    color: white;
+    margin-left: 10px;
+}
+
+.shopping {
+    display: inline-block;
+    width: 9%;
+    height: 100%;
+    margin-left: 0%;
+    background-color: #00c8c8;
+    text-align: top;
+    /*    border: 2px solid red;*/
+}
+
+header2 {
+    width: 100%;
+    height: 80px;
+    display: inline-block;
+    background-color: #f8f8f8;
+}
+
+.avenue {
+    width: 40%;
+    display: inline-block;
+}
+
+.avenue h1 {
+    text-transform: uppercase;
+    color: #333333;
+    margin-left: 132px;
+}
+
+.avenue h1 span {
+    font-weight: 900;
+    color: black;
+}
+
+.categories {
+    display: inline-block;
+    margin-left: 0;
+}
+
+.categories li {
+    display: inline-block;
+    margin-left: 40px;
+    text-transform: uppercase;
+    font-size: 12px;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+.categories li a {
+    text-decoration: none;
+    color: black;
+}
+
+.categories li i {
+    display: block;
+}
+
+.categories wrapper ul {
+    margin-left: 0;
+    /*    border: 2px solid green;*/
+}
+
+.search {
+    display: inline-block;
+}
+
+.search {
+    margin-left: 50px;
+}
+
+.search input {
+    height: 30px;
+    width: 186px;
+}
+
+
+/***picture***/
+
+.picture {
+    width: 100%;
+    background-color: #000000;
+}
+
+.picture img {
+    width: 100%;
+    position: relative;
+    opacity: 0.5;
+}
+
+.boxx {
+    width: 40%;
+    margin-left: 25%;
+    position: absolute;
+    margin-top: -14%;
+}
+
+.boxx p {
+    text-transform: uppercase;
+    font-size: 44px;
+    color: white;
+    margin-left: 25%;
+}
+
+.box2 {
+    position: absolute;
+    width: 60%;
+    margin-left: 22%;
+    margin-top: -17%;
+}
+
+.main .box2 h3,
+h4 {
+    display: inline-block;
+}
+
+.main .box2 h3 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+    margin-top: 15%;
+    text-align: center;
+    font-weight: 100;
+    margin-left: 5%;
+}
+
+.main h4 {
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #32bfc2;
+}
+
+
+/*****picture*****/
+
+.container {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.container .box-left {
+    width: 44%;
+    display: inline-block;
+}
+
+.container .box-left img {
+    width: 100%;
+    height: 640px;
+}
+
+.container .box-right {
+    display: inline-block;
+    width: 55%;
+    vertical-align: top;
+}
+
+.container .box-right h1 {
+    text-transform: uppercase;
+    color: #575153;
+    font-size: 15px;
+}
+
+.line-one {
+    margin-top: -20px;
+}
+
+.line-one i {
+    display: inline-block;
+}
+
+.line-one p {
+    display: inline-block;
+    margin-left: 15px;
+    color: #9a9a9a;
+}
+
+.line-one a {
+    text-decoration: none;
+    color: #00c8c8;
+}
+
+.line-one .fa-star {
+    color: #ded3aa;
+}
+
+.line-one .fa-star-o {
+    color: #dfdfde;
+}
+
+.line-one .icons {
+    display: inline-block;
+    color: #8c8c8c;
+    margin-left: 20px;
+}
+
+.line-one .icons .fa {
+    margin-right: 15px;
+}
+
+
+/****line-two****/
+
+.line-two {
+    margin-top: -10px;
+}
+
+.line-two .price {
+    display: inline-block;
+    margin-top: -20px;
+}
+
+.line-two .price .fa {
+    color: #8c8c8c;
+    display: inline-block;
+    /*    margin-right: 10px;*/
+}
+
+.line-two .price h2 {
+    color: #8c8c8c;
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+    font-size: 25px;
+    font-family: inherit;
+}
+
+.line-two .price hr {
+    position: absolute;
+    width: 40px;
+    margin-top: -2.2%;
+    margin-left: 13px;
+}
+
+.line-two .price h3 {
+    color: #8c8c8c;
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+    font-size: 25px;
+    font-family: inherit;
+}
+
+.line-three {
+    margin-top: -15px;
+}
+
+.line-three h3 {
+    text-transform: uppercase;
+    color: #8c8c8c;
+    display: inline-block;
+}
+
+.line-three p {
+    display: inline-block;
+    font-family: inherit;
+    color: #8c8c8c;
+    font-size: 20px;
+}
+
+.line-four {
+    margin-top: -10px;
+}
+
+.line-four h3 {
+    text-transform: uppercase;
+    color: #8c8c8c;
+    margin-top: 20px;
+    display: inline-block;
+    margin-top: -4%;
+}
+
+.line-four p {
+    display: inline-block;
+    font-family: inherit;
+    color: #8c8c8c;
+    font-size: 20px;
+    margin-top: -4%;
+}
+
+.line-five {
+    margin-top: -10px;
+}
+
+.line-five h3 {
+    text-transform: uppercase;
+    color: #8c8c8c;
+    margin-top: 20px;
+    display: inline-block;
+    margin-top: -4%;
+}
+
+.line-five p {
+    display: inline-block;
+    font-family: inherit;
+    color: #8c8c8c;
+    font-size: 20px;
+    margin-top: -4%;
+}
+
+.line-five a {
+    text-decoration: none;
+    color: #00c8c8;
+    text-transform: capitalize;
+}
+
+.text {
+    margin-top: -15px;
+}
+
+.text p {
+    font-family: inherit;
+    font-size: 20px;
+    color: #8c8c8c;
+    line-height: 23px;
+    text-align: justify;
+}
+
+.text li {
+    font-family: inherit;
+    font-size: 20px;
+    color: #8c8c8c;
+    line-height: 23px;
+    text-align: justify;
+}
+
+
+/****three-boxes****/
+
+.three-boxes {
+    width: 100%;
+}
+
+.box-a {
+    display: inline-block;
+    margin-right: 2%;
+    width: 28%;
+}
+
+.box-a h3 {
+    text-transform: uppercase;
+    color: #8c8c8c;
+}
+
+.box {
+    border: 2px solid grey;
+    margin-top: -10px;
+    height: 40px;
+}
+
+.box p {
+    text-transform: capitalize;
+    color: #8c8c8c;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 8px;
+    display: inline-block;
+}
+
+.box a {
+    color: #8c8c8c;
+    margin-left: 35px;
+}
+
+
+/*******QTY button not done yet*********/
+
+
+/****add-buttons****/
+
+.add-left {
+    display: inline-block;
+}
+
+.add-left button {
+    margin-top: 10%;
+    width: 220px;
+    background-color: black;
+}
+
+.add-left a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.add-left p {
+    display: inline-block;
+    margin-left: 14px;
+}
+
+.add-right {
+    display: inline-block;
+}
+
+.add-right button {
+    margin-top: 10%;
+    width: 410px;
+    background-color: white;
+    border: 1px solid black;
+    margin-left: 20px;
+}
+
+.add-right a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.add-right p {
+    display: inline-block;
+    margin-left: 14px;
+}
+
+.add-compare i {
+    color: white;
+    background-color: #727272;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 4%;
+    padding: 7px;
+}
+
+.add-compare p {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: -5%;
+}
+
+.add-compare a {
+    text-decoration: none;
+    color: #727272;
+}
+
+/****long-line****/
+
+
+.long-line h3{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-right: 60px;
+    margin-left: 20px;
+    
+}
+.long-box{
+    width: 80%;
+    background-color: #f8f8f8;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+.long-box a{
+    text-decoration: none;
+    color: #727272;
+}
+.long-box :hover a {
+    transition:.3s;   
+    background-color: black;
+    color: white;
+    padding: 5px;
+   
+}
+
+
+/****last-text****/
+
+.last-text{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.last-text h3{
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #727272;
+}
+.last-text p{
+    font-size: 15px;
+    color: #727272;
+}
+/*******last*******/
+
+.last {
+    width: 100%;
+    background-color: #f8f8f8;
+    margin-top: 50px;
+}
+.last h2{
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #727272;
+    vertical-align: top;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.last box1{
+    display: inline-block;
+    font-size: 13px;
+    color: #727272;
+    vertical-align: top;
+    margin-left: 20%;
+    margin-right: 40px;
+    line-height: 20px;
+    
+}
+
+.last box2{
+    display: inline-block;
+    font-size: 13px;
+    color: #727272;
+    vertical-align: top;
+    margin-right: 40px;
+    line-height: 20px;
+    
+}
+.last box3{
+    display: inline-block;
+    font-size: 13px;
+    color: #727272;
+    vertical-align: top;
+    margin-right: 40px;
+    line-height: 20px;
+}
+.last box4{
+    display: inline-block;
+    font-size: 13px;
+    color: #727272;
+    vertical-align: top;
+    margin-right: 40px;
+    line-height: 20px;
+    
+}
+.last box5{
+    display: inline-block;
+    font-size: 13px;
+    color: #727272;
+    vertical-align: top;
+    line-height: 20px;
+    
+    
+}
+.last .five-boxes a{
+    text-decoration: none;
+    color: #727272;
+    margin-left: -20px;
+}
+
+/****button****/
+
+.last button{
+    height: 190px;
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: -90px;
+    margin-left: 18%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 36px;
+    text-transform: uppercase;
+    background-color: #333333;
+}
+
+.last button a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.button-r {
+    display: inline-block;
+    background-color: #00c8c8;
+    width: 30%;
+    height: 190px;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+.button-r a{
+    color: white;
+}
+.button-r i{
+    font-size: 38px;
+    margin-left: 60px;
+    margin-top: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

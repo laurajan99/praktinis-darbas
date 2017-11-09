@@ -1,0 +1,368 @@
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+header{
+    width: 100%;
+    background-color: #333333;
+        
+}
+.landing-page{
+
+    width: 90%;
+    margin: 10px auto;
+    margin-top: 20px;
+    background-position: center;
+    border: 2px solid black;
+    
+}
+.currency{
+    display: inline-block;
+    float: left;
+    width: 45%;
+    background-color:#333333;
+/*    border: 2px solid red;*/
+}
+.currency p a{
+    margin-left: 50%;
+    color: #858585;
+    text-decoration: none;
+/*    border: 2px solid green;*/
+}
+.register{
+    display: inline-block;
+    width: 15%;
+    background-color:#333333;
+/*    border: 2px solid white;*/
+    margin-left: 8%;
+}
+.register p {
+    display: inline-block;
+    margin-left: 20%;
+    color: #858585;
+    text-decoration: none;
+    
+}
+.register a{
+    text-decoration: none;
+    color: #858585;
+}
+
+
+.shopping p a{
+    width: 20%;
+    color: #858585;
+    text-decoration: none;
+    background-color: #00c8c8;
+    color: white;
+    
+}
+.shopping .fa {
+    margin-right: 20px;
+    background-color: #00c8c8;
+    color: white;
+    margin-left: 10px;
+    
+    
+}
+.shopping{
+    display: inline-block;
+    width: 9%;
+    height: 100%;
+    margin-left: 0%;
+    background-color: #00c8c8;
+    text-align: top;
+/*    border: 2px solid red;*/
+}
+
+/********/
+
+header2{
+    width: 100%;
+    height: 80px;
+    display: inline-block;
+    background-color: #f8f8f8;
+}
+.avenue{
+    width: 40%;
+    display: inline-block;
+}
+.avenue h1{
+    text-transform: uppercase;
+    color: #333333;
+    margin-left: 132px;
+}
+.avenue h1 span{
+    font-weight: 900;
+    color: black;
+}
+
+.categories{
+    display: inline-block;
+    margin-left: 0;
+}
+.categories li{
+    display: inline-block;
+    margin-left: 40px;
+    text-transform: uppercase;
+    font-size: 12px; 
+    vertical-align: top;
+    text-decoration: none;
+    
+}
+.categories li a{
+    text-decoration: none;
+    color: black;
+}
+.categories li i{
+    display: block;
+    
+}
+.categories wrapper ul{
+    margin-left: 0;
+/*    border: 2px solid green;*/
+}
+.search{
+    display: inline-block;
+}
+.search{
+    margin-left: 50px;
+    
+}
+.search input{
+    height: 30px;
+    width: 186px;
+}
+
+
+/******active menu********/
+
+.menu{
+    width: 40%;
+    border: 2px solid red;
+    
+}
+
+
+
+
+
+/********picture*******/
+
+
+.picture{
+    width: 100%;
+    background-color: #000000;
+}
+
+.picture img{
+    width: 100%;
+    position: relative;  
+    opacity: 0.5;
+}
+.main .box{
+    width: 40%;
+    height: 200px;
+    margin-left: 130px;
+    position: absolute;
+    margin-top: -300px;
+    letter-spacing: 350px;
+}
+.main .box p{
+    text-transform: uppercase;
+    font-size: 200px;
+    position: absolute;
+    color: #5e5e5e;
+    margin: auto;
+}
+.main .box2 h2{
+    text-transform: uppercase;
+    color: white;
+    font-size: 48px;
+    
+}
+.main .box2 h2 span{
+    font-weight: 900;
+}
+.picture h3{
+    text-transform: uppercase;
+    color: white;
+}
+.picture span{
+    font-weight: 900;
+    font-size: 50px;
+}
+.main .box2{
+    position: absolute;
+    width: 30%;
+    height: 200px;
+    margin-left: 35%;
+    margin-top: -250px;
+}
+
+/******2box*******/
+
+.two-boxes{
+    width: 100%;
+    margin-top: 20px;
+    display: inline-block;
+}
+.box-left{
+    width: 40%;
+    display: block;
+    float: left;
+    margin-left: 10%;
+}
+.two-boxes .box-left img{
+    display: block;
+}
+.box-right{
+    width: 40%;
+    display: block;
+    float: right;
+    margin-right: 9%;
+
+}
+.box-right img{
+    margin-top: 35px;
+}
+.signs{
+    margin-top: 30px;
+}
+.signs img{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.text h3{
+    text-transform: uppercase;
+    color: #333333;
+}
+.text h4{
+    text-transform: uppercase;
+    color: #333333;
+}
+.text p{
+    color: #333333;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: justify;
+    margin-right: 24px;
+}
+/*******last*******/
+
+.last {
+    width: 100%;
+    background-color: #f8f8f8;
+    margin-top: 50px;
+}
+.last h2{
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #727272;
+    vertical-align: top;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.last box1{
+    display: inline-block;
+    font-size: 13px;
+    color: #727272;
+    vertical-align: top;
+    margin-left: 20%;
+    margin-right: 40px;
+    line-height: 20px;
+    
+}
+.last box2{
+    display: inline-block;
+    font-size: 13px;
+    color: #727272;
+    vertical-align: top;
+    margin-right: 40px;
+    line-height: 20px;
+    
+}
+.last box3{
+    display: inline-block;
+    font-size: 13px;
+    color: #727272;
+    vertical-align: top;
+    margin-right: 40px;
+    line-height: 20px;
+}
+.last box4{
+    display: inline-block;
+    font-size: 13px;
+    color: #727272;
+    vertical-align: top;
+    margin-right: 40px;
+    line-height: 20px;
+    
+}
+.last box5{
+    display: inline-block;
+    font-size: 13px;
+    color: #727272;
+    vertical-align: top;
+    line-height: 20px;
+    
+    
+}
+.last .five-boxes a{
+    text-decoration: none;
+    color: #727272;
+    margin-left: -20px;
+}
+
+/****button****/
+
+.last button{
+    height: 190px;
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: -90px;
+    margin-left: 18%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 36px;
+    text-transform: uppercase;
+    background-color: #333333;
+}
+
+.last button a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.button-r {
+    display: inline-block;
+    background-color: #00c8c8;
+    width: 30%;
+    height: 190px;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+.button-r a{
+    color: white;
+}
+.button-r i{
+    font-size: 38px;
+    margin-left: 60px;
+    margin-top: 80px;
+}

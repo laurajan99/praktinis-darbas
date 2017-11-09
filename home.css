@@ -1,0 +1,558 @@
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+header{
+    width: 100%;
+    background-color: #333333;
+        
+}
+.landing-page{
+
+    width: 90%;
+    margin: 10px auto;
+    margin-top: 20px;
+    background-position: center;
+    border: 2px solid black;
+    
+}
+.currency{
+    display: inline-block;
+    float: left;
+    width: 45%;
+    background-color:#333333;
+/*    border: 2px solid red;*/
+}
+.currency p a{
+    margin-left: 50%;
+    color: #858585;
+    text-decoration: none;
+/*    border: 2px solid green;*/
+}
+.register{
+    display: inline-block;
+    width: 15%;
+    background-color:#333333;
+/*    border: 2px solid white;*/
+    margin-left: 8%;
+}
+.register p {
+    display: inline-block;
+    margin-left: 20%;
+    color: #858585;
+    text-decoration: none;
+    
+}
+.register a{
+    text-decoration: none;
+    color: #858585;
+}
+
+
+.shopping p a{
+    width: 20%;
+    color: #858585;
+    text-decoration: none;
+    background-color: #00c8c8;
+    color: white;
+    
+}
+.shopping .fa {
+    margin-right: 20px;
+    background-color: #00c8c8;
+    color: white;
+    margin-left: 10px;
+    
+    
+}
+.shopping{
+    display: inline-block;
+    width: 9%;
+    height: 100%;
+    margin-left: 0%;
+    background-color: #00c8c8;
+    text-align: top;
+/*    border: 2px solid red;*/
+}
+
+/********/
+
+header2{
+    width: 100%;
+    height: 80px;
+    display: inline-block;
+    background-color: #f8f8f8;
+}
+.avenue{
+    width: 40%;
+    display: inline-block;
+}
+.avenue h1{
+    text-transform: uppercase;
+    color: #333333;
+    margin-left: 132px;
+}
+.avenue h1 span{
+    font-weight: 900;
+    color: black;
+}
+
+.categories{
+    display: inline-block;
+    margin-left: 0;
+}
+.categories li{
+    display: inline-block;
+    margin-left: 40px;
+    text-transform: uppercase;
+    font-size: 12px; 
+    vertical-align: top;
+    text-decoration: none;
+    
+}
+.categories li a{
+    text-decoration: none;
+    color: black;
+}
+.categories li i{
+    display: block;
+    
+}
+.categories wrapper ul{
+    margin-left: 0;
+/*    border: 2px solid green;*/
+}
+.search{
+    display: inline-block;
+}
+.search{
+    margin-left: 50px;
+    
+}
+.search input{
+    height: 30px;
+    width: 186px;
+}
+/********pic*******/
+
+
+.first .pic{
+    width: 100%;
+}
+.first .pic img{
+    width: 100%;
+}
+.pic button{
+    width: 15%;
+    height: 50px;
+    text-transform: uppercase;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 58%;
+        
+}
+.pic button a{
+    text-decoration: none;
+    color: black;
+}
+hr{
+    width: 82%;
+    margin-top: 30px;
+}
+
+/******list********/
+
+.list a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #333333;
+    margin-left: 100px;
+    
+   
+}
+.list li{
+    display: inline-block;
+    margin-right: -80px;
+    font-size: 13px;
+}
+/*
+.list li:hover a{
+    background-color: #00c8c8;
+}
+*/
+
+
+/******shirts******/
+
+.shirts{
+    display: inline-block;
+}
+
+.shirts .left-box{
+    width: 40%;
+    float: left;
+    margin-left: 9%;
+    
+}
+
+.shirts .up img{
+    width: 47.1%;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.shirts .down img{
+    width: 98%;
+    margin-top: 10px;
+}
+.shirts .right-box{
+    width: 40%;
+    float: right;
+    margin-right: 10%;
+}
+.shirts .top img{
+    width: 98%;
+}
+.shirts .bottom img{
+    width: 49.6%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: -10px;
+    margin-right: 10px;
+}
+.text{
+    width: 14%;
+    position: absolute;
+    margin-top: -6.5%;
+    margin-left: 28px;
+}
+.text h2{
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #727272;
+    text-align: center;
+}
+.text h3{
+    font-size: 10px;
+    line-height: 15px;
+    color: #727272;
+    text-align: center;
+}
+.text i{
+    background-color: #727272;
+    color: white;
+    border-radius: 50%;
+    font-size:17px;
+    text-align: center;
+    padding: 7px;
+    margin-left: 30px;
+    margin-top: -10px;
+    
+}
+.text a{
+    text-decoration:none;
+}
+
+
+
+/*****3pics****/
+
+/*****3pics****/
+
+.pics {
+    width: 100%;
+    height: 400px;
+    margin-top: 35px;
+}
+
+.pics .b-left {
+    width: 35%;
+    height: 300px;
+    display: inline-block;
+    margin-right: -39px;
+    margin-left: 0;
+    vertical-align: top;
+}
+
+.pics .b-middle {
+    width: 35.5%;
+    display: inline-block;
+    margin-right: -30px;
+    margin-left: 20px;
+    vertical-align: top;
+}
+
+.pics .b-middle img {
+    height: 370px;
+}
+
+.pics .b-right {
+    width: 34.5%;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: -40px;
+    float: right;
+}
+
+.pics img {
+    width: 90%;
+    vertical-align: top;
+}
+
+.pics h2 {
+    text-transform: uppercase;
+    color: #333333;
+    width: 10%;
+    line-height: 30px;
+    letter-spacing: 5px;
+    margin-top: -20%;
+    margin-left: 15%;
+    vertical-align: bottom;
+    font-weight: 200;
+    text-align: right;
+    position: absolute;
+}
+
+.pics span {
+    font-weight: 900;
+    text-align: justify;
+}
+
+.pics p {
+    color: #333333;
+    font-size: 15px;
+    text-align: right;
+    margin-left: 12%;
+    margin-top: -15%;
+    line-height: 25px;
+    position: absolute;
+    width: 14%;
+}
+
+.pics button {
+    color: black;
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    margin-left: -12%;
+    margin-top: 18%;
+    border: 1px solid black;
+    position: absolute;
+}
+
+.pics button a {
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: black;
+}
+
+/*******last*******/
+
+.last {
+    width: 100%;
+    background-color: #f8f8f8;
+    margin-top: 50px;
+}
+.last h2{
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #727272;
+    vertical-align: top;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.last box1{
+    display: inline-block;
+    font-size: 13px;
+    color: #727272;
+    vertical-align: top;
+    margin-left: 20%;
+    margin-right: 40px;
+    line-height: 20px;
+    
+}
+.last box2{
+    display: inline-block;
+    font-size: 13px;
+    color: #727272;
+    vertical-align: top;
+    margin-right: 40px;
+    line-height: 20px;
+    
+}
+.last box3{
+    display: inline-block;
+    font-size: 13px;
+    color: #727272;
+    vertical-align: top;
+    margin-right: 40px;
+    line-height: 20px;
+}
+.last box4{
+    display: inline-block;
+    font-size: 13px;
+    color: #727272;
+    vertical-align: top;
+    margin-right: 40px;
+    line-height: 20px;
+    
+}
+.last box5{
+    display: inline-block;
+    font-size: 13px;
+    color: #727272;
+    vertical-align: top;
+    line-height: 20px;
+    
+    
+}
+.last .five-boxes a{
+    text-decoration: none;
+    color: #727272;
+    margin-left: -20px;
+}
+
+/****button****/
+
+.last button{
+    height: 190px;
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: -90px;
+    margin-left: 18%;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    font-size: 36px;
+    text-transform: uppercase;
+    background-color: #333333;
+}
+
+.last button a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.button-r {
+    display: inline-block;
+    background-color: #00c8c8;
+    width: 30%;
+    height: 190px;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+.button-r a{
+    color: white;
+}
+.button-r i{
+    font-size: 38px;
+    margin-left: 60px;
+    margin-top: 80px;
+}
+
+/******active menu********/
+
+.menu{
+    width: 30%;
+    box-shadow: 5px 5px 5px 5px #888888;
+    position: absolute;
+    background-color: white;
+    margin-left: 29px;
+    z-index: 2;
+    display: none; 
+}
+.menu .box-l{
+    width:  45%;
+    display: inline-block;
+    font-size: 10px;
+    vertical-align: top;
+    margin-left: 5%;
+}
+.menu .box-r{
+    width:  45%; 
+    display: inline-block;
+  
+}
+.menu .box-r li{
+    display: block;
+}
+.button h2{ 
+    text-transform: uppercase;
+    color: white;
+    margin-left: 12%;
+    padding: 8px;
+    line-height: 30px;
+}
+.button{
+    background-color: #333333;
+    width: 70%;
+    height: 90px;
+    margin-left: 20%;
+    margin-bottom: 50px;
+    
+}
+.menu h3{
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-left: 37px;
+    
+}
+.menu  ul{
+    display: block;
+    line-height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
