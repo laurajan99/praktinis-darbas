@@ -40,7 +40,6 @@ header {
 
 .currency {
     display: inline-block;
-    float: left;
     width: 45%;
     background-color: #333333;
     /*    border: 2px solid red;*/
@@ -207,7 +206,6 @@ header2 {
     font-size: 30px;
     margin-top: 15%;
     text-align: center;
-    font-weight: 100;
     margin-left: 5%;
 }
 
