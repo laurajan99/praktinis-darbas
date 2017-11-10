@@ -43,7 +43,6 @@ header {
 
 .currency {
     display: inline-block;
-    float: left;
     width: 45%;
     background-color: #333333;
     /*    border: 2px solid red;*/
@@ -78,7 +77,6 @@ header {
 
 .shopping p a {
     width: 20%;
-    color: #858585;
     text-decoration: none;
     background-color: #00c8c8;
     color: white;
@@ -95,7 +93,7 @@ header {
     display: inline-block;
     width: 9%;
     height: 100%;
-    margin-left: 0%;
+    margin-left: 0;
     background-color: #00c8c8;
     text-align: top;
     /*    border: 2px solid red;*/
@@ -356,7 +354,6 @@ h4 {
 .line-four h3 {
     text-transform: uppercase;
     color: #8c8c8c;
-    margin-top: 20px;
     display: inline-block;
     margin-top: -4%;
 }
@@ -376,7 +373,6 @@ h4 {
 .line-five h3 {
     text-transform: uppercase;
     color: #8c8c8c;
-    margin-top: 20px;
     display: inline-block;
     margin-top: -4%;
 }

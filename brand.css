@@ -22,17 +22,14 @@ header{
         
 }
 .landing-page{
-
     width: 90%;
-    margin: 10px auto;
-    margin-top: 20px;
+    margin: 20px auto;
     background-position: center;
     border: 2px solid black;
     
 }
 .currency{
     display: inline-block;
-    float: left;
     width: 45%;
     background-color:#333333;
 /*    border: 2px solid red;*/
@@ -65,11 +62,9 @@ header{
 
 .shopping p a{
     width: 20%;
-    color: #858585;
     text-decoration: none;
     background-color: #00c8c8;
     color: white;
-    
 }
 .shopping .fa {
     margin-right: 20px;
@@ -83,7 +78,7 @@ header{
     display: inline-block;
     width: 9%;
     height: 100%;
-    margin-left: 0%;
+    margin-left: 0;
     background-color: #00c8c8;
     text-align: top;
 /*    border: 2px solid red;*/
