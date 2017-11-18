@@ -125,6 +125,18 @@ header2{
     height: 30px;
     width: 186px;
 }
+/* ******main-picture**** */
+
+.picture {
+    width: 100%;
+    background-color: #000000;
+}
+
+.picture img {
+    width: 100%;
+    position: relative;
+    opacity: 0.5;
+}
 /*****3pics****/
 
 .pics {

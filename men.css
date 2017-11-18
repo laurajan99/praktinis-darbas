@@ -29,16 +29,7 @@ table {
 
 /***picture***/
 
-.picture {
-    width: 100%;
-    background-color: #000000;
-}
 
-.picture img {
-    width: 100%;
-    position: relative;
-    opacity: 0.5;
-}
 
 .boxx {
     width: 40%;

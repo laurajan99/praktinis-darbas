@@ -30,19 +30,6 @@ header {
     background-color: #333333;
 }
 
-
-
-.picture {
-    width: 100%;
-    background-color: #000000;
-}
-
-.picture img {
-    width: 100%;
-    position: relative;
-    opacity: 0.5;
-}
-
 .main .box {
     width: 40%;
     margin-left: 23%;
@@ -72,7 +59,6 @@ header {
     text-transform: uppercase;
     display: inline-block;
     color: white;
-    font-weight: 100;
     font-size: 30px;
     margin-top: 15%;
     text-align: center;
@@ -188,7 +174,6 @@ input {
     margin-left: 20px;
     vertical-align: middle;
     font-size: 15px;
-    line-height: 15px;
     color: #737373;
     line-height: 20px;
 }

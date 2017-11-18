@@ -41,16 +41,7 @@ header{
 /********picture*******/
 
 
-.picture{
-    width: 100%;
-    background-color: #000000;
-}
 
-.picture img{
-    width: 100%;
-    position: relative;  
-    opacity: 0.5;
-}
 .main .box{
     width: 40%;
     height: 200px;
