@@ -1,0 +1,27 @@
+@media(max-width: 1620px){
+    .landing-page header .currency p a{ 
+        margin-left: 20%;
+    }
+    .landing-page header .register p a{
+        margin-left: -5%;
+    }
+    .landing-page header .shopping{
+        margin-left:-20px;
+        display: inline-block;
+        }
+        .landing-page header{
+            height: 50px;
+        }
+    }
+@media(max-width: 1610px){
+    .landing-page header .currency{
+       width:20%;
+    }
+    .landing-page header .register p a{
+        margin-left: 20%;
+        float: left;
+    }
+    .landing-page header .shopping{
+        margin-left:20%;
+        }
+}
