@@ -16,7 +16,7 @@ header{
     display: inline-block;
     width: 35%;
     background-color:#333333;
-   border: 2px solid red;
+   /* border: 2px solid red; */
 }
 .currency p a{
     margin-left: 50%;
@@ -28,8 +28,9 @@ header{
     display: inline-block;
     width: 15%;
     background-color:#333333;
-/*    border: 2px solid white;*/
+    /* border: 2px solid blue; */
     margin-left: 8%;
+    
 }
 .register p {
     display: inline-block;
